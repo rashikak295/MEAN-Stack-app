@@ -36,7 +36,6 @@ module.exports.authenticate = (req, res, next) => {
         else return res.status(404).json(info);
     })(req, res);
 }
-//Testing
 
 module.exports.userProfile = (req, res, next) =>{
     User.findOne({ _id: req._id },
