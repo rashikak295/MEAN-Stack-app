@@ -1,0 +1,14 @@
+{
+    "development" : {
+        "PORT" : 3000, 
+        "MONGODB_URI" : "mongodb://localhost:27017/project",
+        "JWT_SECRET": "SECTRET#123",
+        "JWT_EXP": "2m"
+    },
+    "production" : {
+        "PORT" : 80, 
+        "MONGODB_URI" : "mongodb://xxxxx/DB_name",
+        "JWT_SECRET": "SECTRET#123",
+        "JWT_EXP": "2m"
+    }
+}
